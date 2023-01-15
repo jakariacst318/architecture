@@ -1,0 +1,278 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.conteiner {
+    background: rgba(255, 144, 14, 0.1);
+    height: 990px;
+}
+
+.sub-conteiner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sub-conteiner h2 {
+    font-size: 25px;
+    font-weight: 700px;
+    padding-top: 20px;
+    padding-left: 100px;
+
+}
+
+.conteiner-description {
+    padding-top: 40px;
+    padding-right: 100px;
+
+}
+
+.conteiner-description button {
+    margin: 20px;
+    background: none;
+    border: none;
+}
+
+/* heading  */
+.heading h2 {
+    font-weight: 700;
+    font-size: 51px;
+    padding: 0 440px;
+}
+
+.heading p {
+    padding: 0 300px;
+}
+
+.heading button {
+    width: 130px;
+    height: 50px;
+    margin-left: 550px;
+    background-color: darkorange;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.heading .banner {
+    width: 100px;
+    height: 100px;
+}
+
+.heading img {
+    padding: 40px 150px;
+    width: 1000px;
+    height: 500px;
+
+}
+
+/* Features */
+.Features {
+    display: flex;
+    gap: 40px;
+    margin: 0 100px;
+
+}
+
+.Features-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 80px;
+}
+
+.sub-Features {
+    margin-top: 250px;
+}
+
+.sub-Features h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sub-Features-description {
+    font-size: 13px;
+    color: #727272;
+}
+
+.sub-Features button {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: darkorange;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.bold-1 {
+    color: #727272
+}
+
+.bold-2 {
+    color: #000000
+}
+
+.bold-3 {
+    color: #FF900E;
+}
+
+/* Features-you-will */
+
+.Features-you-will-title {
+    display: flex;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+.Features-you-will-title h2 {
+    border-left: 5px solid orange;
+    margin: 20px 100px;
+    padding-left: 15px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Features-you-will-title p {
+    color: #727272;
+    margin: 0 100px;
+    font-size: 14px;
+
+}
+
+.Features-you-will-title img {
+    width: 700px;
+    height: 800px;
+    padding-right: 100px;
+}
+
+.Features-you-will-sub {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    height: 135px;
+    width: 495px;
+    margin-left: 110px;
+}
+
+.Features-you-will-title-sub-description h4 {
+    padding-top: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+
+}
+
+.Features-you-will-title-sub-description p {
+    color: #727272;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.Experience button {
+    margin-left: 620px;
+    width: 200px;
+    height: 150px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+/* sume facts */
+
+.extra {
+    margin: 10px 750px 10px 100px;
+}
+
+.extra-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.extra-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #727272;
+}
+
+.project-bar {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
+}
+
+.project-border {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 201px;
+    display: grid;
+    text-align: center;
+}
+.project-border:hover{
+    background-color:#ff900e1a;
+    box-shadow: 5px 10px #777572c2;;
+}
+
+.project-border h4 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #3d3838;
+
+}
+
+.project-border p {
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+
+}
+
+.project-border img {
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+
+/* extra-2 */
+.extra-2 {
+    margin: 100px 470px 0px 470px;
+}
+
+.extra-title-2 {
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+}
+
+.extra-description-2 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+}
+
+/* website */
+
+.website {
+    display: flex;
+    gap: 70px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 160px;
+    padding-bottom: 80px;
+
+}
+
+/* fotter */
+.fotter {
+    padding: 10px 20px 30px 200px;
+    margin: 5px 0 0 130px;
+    width: 850px;
+    height: 20px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    color: #727272;
+}
