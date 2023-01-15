@@ -186,6 +186,7 @@
     margin: 10px 750px 10px 100px;
 }
 
+
 .extra-title {
     font-weight: 700;
     font-size: 45px;
@@ -238,9 +239,11 @@
 
 /* extra-2 */
 .extra-2 {
-    margin: 100px 470px 0px 470px;
+    margin: 100px 470px 0px 400px;
 }
-
+.link{
+    color: #FF900E;
+}
 .extra-title-2 {
     margin-left: 70px;
     font-weight: 700;
